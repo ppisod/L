@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Dateable {
 
-    public static int MinimumDateAge (int age) {
+    public static int minimumDateAge (int age) {
         return (int) ((int) (age / 2d) + 7d);
     }
 
@@ -12,7 +12,7 @@ public class Dateable {
         System.out.println("Enter your age: ");
         String ageString = scanner.nextLine(); // nextInt
         int age = Integer.parseInt(ageString);
-        System.out.println("Your minimum date age IS: " + MinimumDateAge(age));
+        System.out.println("Your minimum date age IS: " + minimumDateAge(age));
 
     }
 }
